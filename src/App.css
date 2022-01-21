@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script&display=swap');
+
+
+
+
+.App {
+  text-align: center;
+  background: #d9a7c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+}
+
+.user-list{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px auto;
+}
+.navbar{width: 100%; 
+  height: 50px; 
+  margin: 0;
+  z-index: 99; 
+  position: relative; 
+}
+.usercard{margin: 2rem;}
+.about{      display: flex;
+  height: 100vh;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://cdn.searchenginejournal.com/wp-content/uploads/2019/01/Top-10-Ranking-About-Us-Pages.png);
+  background-repeat: no-repeat;
+  background-size: 1300px 620px;
+}
+.home{ display: flex;
+  flex-direction: column;
+  height: 80vh;
+  align-content: center;
+  justify-content: center;
+  align-items: center;}
+
+  .title{ font-family: 'Dancing Script', cursive;
+  font-size: 100px;}
+  .face{border-radius:500px;
+  height:200px}
